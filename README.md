@@ -28,18 +28,18 @@ atualizar o DynamoDB com a opção de escolhida pelo usuário, o não envio do
 parâmetro indica que deve-se utilizar os dados em cache
 
 ### Requirements
-$ asgiref==3.5.0
-$ Django==4.0.1
-$ djangorestframework==3.13.1
-$ greenlet==1.1.2
-$ numpy==1.22.1
-$ pandas==1.4.0
-$ python-dateutil==2.8.2
-$ pytz==2021.3
-$ six==1.16.0
-$ SQLAlchemy==1.4.31
-$ sqlparse==0.4.2
-$ tzdata==2021.5
+$ asgiref==3.5.0<br>
+$ Django==4.0.1<br>
+$ djangorestframework==3.13.1<br>
+$ greenlet==1.1.2<br>
+$ numpy==1.22.1<br>
+$ pandas==1.4.0<br>
+$ python-dateutil==2.8.2<br>
+$ pytz==2021.3<br>
+$ six==1.16.0<br>
+$ SQLAlchemy==1.4.31<br>
+$ sqlparse==0.4.2<br>
+$ tzdata==2021.5<br>
 
 ### Clone este repositório
 $ git clone https://github.com/abrantes32/api_flask_aws.git
