@@ -1,0 +1,1 @@
+console.log('Teste pra ver se tá tudo ok com JS');
