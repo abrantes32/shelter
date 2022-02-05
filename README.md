@@ -1,11 +1,8 @@
 # Shelter 
-
-<h1 align="center">(web application)Django API Bootstrap</h1>
-
 <h1 align="center">
     <a href="https://pt-br.reactjs.org/">🔗 Python</a>
 </h1>
-<p align="center">🚀 Sistema em django que faz ETL, consome dados de banco via API, renderiza tabela em template </p>
+<p align="center">🚀 Um sistema em DJANGO</p>
 
 <h4 align="center"> 
 	🚧 Em construção...  🚧
