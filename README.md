@@ -36,7 +36,7 @@ sqlparse==0.4.2<br>
 tzdata==2021.5<br>
 
 ### Clone este repositório
-$ git clone https://github.com/abrantes32/api_flask_aws.git
+$ git clone https://github.com/abrantes32/shelter.git
 
 ### Execute a aplicação em modo de desenvolvimento e acesse a pasta onde se localiza o projeto
 $ python -m venv venv<br>
