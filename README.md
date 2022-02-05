@@ -42,13 +42,13 @@ $ git clone https://github.com/abrantes32/shelter.git
 $ python -m venv venv<br>
 $ call venv\scripts\activate<br>
 $ pip install requirements.txt<br>
-$ python manage.py createsuperuser (é importante criar um superuser para logar na api)
+$ python manage.py createsuperuser (é importante criar um superuser para logar na api)<br>
 $ python manage.py runserver
 
 ### Ver dados da API:
 $ http://127.0.0.1:8000/vulnerabilities/ (Aqui a api puxa os dados do banco)
 Foi criado uma documentação visual no browser, os passos para visualizar:
-- Acesse o link localhost:8000/admin e acesse o admin do django com seu usuário e senha de admin
+- Acesse o link localhost:8000/admin e acesse o admin do django com seu usuário e senha de admin<br>
 - Copie o link http://127.0.0.1:8000/vulnerabilities/ no browser.
 
 # O servidor inciará na porta:8000 - acesse <http://localhost:8000> 
