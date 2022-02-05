@@ -42,11 +42,15 @@ $ git clone https://github.com/abrantes32/api_flask_aws.git
 $ python -m venv venv<br>
 $ call venv\scripts\activate<br>
 $ pip install requirements.txt<br>
-$ flask run
+$ python manage.py createsuperuser (é importante criar um superuser para logar na api)
+$ python manage.py runserver
 
-### Veja o resultado da rota /songs no postman ou o que preferir:
-$ localhost:5000/songs?artist_id=349487
+### Ver dados da API:
+$ http://127.0.0.1:8000/vulnerabilities/ (Aqui a api puxa os dados do banco)
+Foi criado uma documentação visual no browser, os passos para visualizar:
+- Acesse o link localhost:8000/admin e acesse o admin do django com seu usuário e senha de admin
+- Copie o link http://127.0.0.1:8000/vulnerabilities/ no browser.
 
-# O servidor inciará na porta:5000 - acesse <http://localhost:5000> 
+# O servidor inciará na porta:8000 - acesse <http://localhost:8000> 
 
 
