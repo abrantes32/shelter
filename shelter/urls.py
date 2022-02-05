@@ -25,9 +25,7 @@ router.register(r'vulnerabilities', views.VulnerabilityViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('', include('tasks.urls')),
     path('', include(router.urls)),
-    # path('teste1', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    path('layout', include('project.urls'))
+    path('', include('project.urls')),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
