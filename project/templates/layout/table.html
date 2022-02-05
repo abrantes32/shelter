@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}Table{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="text-center"><u>Tabela de vulnerabilidade</u></h2><br>            
+    <table class="table table-dark table-striped">
+      <thead>
+        <tr>
+          <th>hostname</th>
+          <th>ip_address</th>
+          <th>title</th>
+          <th>severity</th>
+          <th>cvss</th>
+          <th>publication_date</th>
+        </tr>
+      </thead>
+      <tbody>
+      
+      {% if d %}  
+      {% for i in d %}
+        <tr>
+          <td>{{i.hostname}}</td>
+          <td>{{i.ip_address}}</td>
+          <td>{{i.title}}</td>
+          <td>{{i.severity}}</td>
+          <td>{{i.cvss}}</td>
+          <td>{{i.publication_date}}</td>
+        </tr>
+      {% endfor %}
+      {% endif %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}

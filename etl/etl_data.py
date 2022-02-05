@@ -1,6 +1,6 @@
 import shelve
 import pandas as pd
-from tasks.models import ShelterDATABASE
+from project.models import Vulnerability
 from datetime import datetime
 
 
@@ -25,9 +25,10 @@ class VulnerabilityETL:
         return df
 
     def load(self, df):
+        
         df_dict = df.to_dict()
         for index in range(0, len(df.index)):
-            obj, created = ShelterDATABASE.objects.update_or_create(
+            obj, created = Vulnerability.objects.update_or_create(
             hostname=df_dict['hostname'][index],
             ip_address=df_dict['ip_address'][index],
             title=df_dict['title'][index],
@@ -41,3 +42,4 @@ class VulnerabilityETL:
 
 vulnerability_etl = VulnerabilityETL()
 df_vun = vulnerability_etl.load(vulnerability_etl.transform(vulnerability_etl.extract()))
+df_vun1 = vulnerability_etl.transform(vulnerability_etl.extract())
