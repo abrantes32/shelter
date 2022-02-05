@@ -51,7 +51,9 @@ Foi criado uma documentação visual no browser, os passos para visualizar:
 - Acesse o link localhost:8000/admin e acesse o admin do django com seu usuário e senha de admin<br>
 - Copie o link http://127.0.0.1:8000/vulnerabilities/ no browser.
 
-### O servidor inciará na porta:8000 
-- acesse <http://localhost:8000> 
+### Links funcionais: 
+- http://localhost:8000
+- http://localhost:8000/tables
+- http://127.0.0.1:8000/vulnerabilities/
 
 
