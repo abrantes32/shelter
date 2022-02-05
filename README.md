@@ -1,11 +1,11 @@
-# Nome do Projeto 
+# Shelter 
 ou
 <h1 align="center">Django API Bootstrap</h1>
 
 <h1 align="center">
     <a href="https://pt-br.reactjs.org/">🔗 Python</a>
 </h1>
-<p align="center">🚀 API em flask que consome uma API Genius, utilizando DynamoDB </p>
+<p align="center">🚀 Sistema em django que faz ETL, consome dados de banco via API, renderiza tabela em template </p>
 
 <h4 align="center"> 
 	🚧 Em construção...  🚧
@@ -13,19 +13,16 @@ ou
 
 ### Features
 
-- [ ] Utilizar serviço da AWS
-- [x] Criar uma API REST em Python (FLASK)
-- [x] Consumir API do Genius
-- [x] liste as 10 músicas mais populares do artista pesquisado
-- [ ] Salvar um id de transação no formato uuid versão 4
-- [ ] Pesquisar por nome do artista
-- [ ] Salvar em uma coleção no DynamoDB
-- [ ] Dados com o retorno da consulta à API devem ser salvos no Redis por 7 dias
-- [ ] Verificar se existe transações salvas ao buscar um artista e encontra-se disponível em cache (Redis)
-- [ ] A consulta deverá permitir a passagem via query string a opção de manter os dados
-em cache, caso enviado o parâmetro cache=False limpar a transação do Redis e
-atualizar o DynamoDB com a opção de escolhida pelo usuário, o não envio do
-parâmetro indica que deve-se utilizar os dados em cache
+- [X] Importar o conteúdo de um arquivo .CSV
+- [X] Exibir as informações como tabelas e/ou gráficos, de forma a facilitar o trabalho de análise e priorização das vulnerabilidades a serem corrigidas, devem existir visões por ativo e por ambiente.
+- [ ] Gerar uma métrica de risco para o host.
+- [ ] Gerar uma média de risco do ambiente.
+- [ ] O usuário irá marcar quando uma vulnerabilidade foi corrigida.
+
+**Caracteristicas da API:**
+- [x] As APIs devem possuir paginação de 50 elementos.
+- [X] Realizar filtragens e ordenações.
+- [ ] Não devem permitir modificação dos dados dos hosts e vulnerabilidades, apenas para mudança de seus status (corrigida e não corrigida)
 
 ### Requirements
 asgiref==3.5.0<br>
